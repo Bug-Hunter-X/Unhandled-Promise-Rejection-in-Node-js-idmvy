@@ -1,0 +1,3 @@
+# Unhandled Promise Rejection in Node.js
+
+This repository demonstrates a common but easily overlooked error in Node.js: unhandled promise rejections.  The `bug.js` file contains a Promise that rejects without proper error handling. This can lead to unexpected application termination or instability.  The `bugSolution.js` file shows the corrected code with proper error handling.  Always ensure your promises are handled appropriately to maintain the robustness of your Node.js applications.
